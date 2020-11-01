@@ -1,0 +1,16 @@
+services:
+  #web is a service name (can type what u want)
+  bot:
+    build: .
+    volumes:
+      - .:/Bot
+    ports:
+      - "8000:8000"
+      - "9200:9200"
+    command: bash -c "
+      ls &&
+      cd TelegramBot/ &&
+      service rabbitmq-server start &&
+      echo 'STARTING PYTHON3 BOT.PY' &&
+      python3 mirror.py
+      "
