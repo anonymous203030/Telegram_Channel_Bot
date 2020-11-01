@@ -1,0 +1,61 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyCompatibilityInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ourVersions">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="3.8" />
+            <item index="1" class="java.lang.String" itemvalue="3.9" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="WTForms" />
+            <item index="1" class="java.lang.String" itemvalue="Celery" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="format" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="type.with_ui" />
+          <option value="type.without_ui" />
+          <option value="CodeSchoolAPI.apps.users.tests.UserModelTestCase.*" />
+          <option value="config.SESSION_STRING" />
+          <option value="config.API_ID" />
+          <option value="config.API_HASH" />
+          <option value="config.BOT_TOKEN" />
+          <option value="config.SOURCE_CHANNEL" />
+          <option value="config.TARGET_CHANNEL" />
+          <option value="config.DATABASE_URL" />
+          <option value="config.SESSION_STRING_CLIENT" />
+          <option value="config.SESSION_STRING_BOT" />
+          <option value="config.channel" />
+          <option value="telethon.client.telegramclient.TelegramClient.session" />
+          <option value="config.session" />
+          <option value="datetime.datetime.datetime" />
+          <option value="config.app" />
+          <option value="config.client" />
+          <option value="telethon.client.telegramclient.TelegramClient.ADDONS" />
+          <option value="config.ADDONS" />
+          <option value="login" />
+          <option value="config.VIDEO_CHANNEL" />
+          <option value="config.PARTICIPANTS_STRING_CLIENT" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
