@@ -5,10 +5,6 @@ from telethon.sync import TelegramClient
 import config
 from telethon import events
 
-BOT_TOKEN = input('input bot token:\n')
-CLIENT_ID = input('input api_id:\n')
-CLIENT_HASH = input('input api_hash:\n')
-
 
 bot = TelegramClient(StringSession(), config.API_ID, config.API_HASH).start(bot_token=config.BOT_TOKEN)
 client = TelegramClient(SQLiteSession(config.SESSION_STRING_CLIENT), config.API_ID, config.API_HASH)
