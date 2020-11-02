@@ -6,7 +6,7 @@ aiodns==2.0.0
 aiohttp[speedups]==3.6.3
 brotlipy==0.7.0
 setuptools==50.3.2
-cryptg==0.2.post1
+cryptg==0.2.post0
 pillow==8.0.1
 # psycopg2==2.8.6
 # teleredis==0.1.3
