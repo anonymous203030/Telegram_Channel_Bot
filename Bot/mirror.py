@@ -10,7 +10,7 @@ bot = TelegramClient(StringSession(), config.API_ID, config.API_HASH).start(bot_
 client = TelegramClient(SQLiteSession(config.SESSION_STRING_CLIENT), config.API_ID, config.API_HASH)
 
 all = []
-file_path = "home/anonymous203030/Desktop/BotAz/Bot"
+file_path = os.path.abspath(Bot)
 file_name = os.path.basename(file_path)
 print('Starting Parsing:')
 for channel in config.SOURCE_CHANNEL:
