@@ -13,5 +13,5 @@ services:
       service rabbitmq-server start &&
       echo 'STARTING PYTHON3 BOT.PY' &&
       python3 config.py &&
-      python3 mirror.py
+      python3 main.py
       "
